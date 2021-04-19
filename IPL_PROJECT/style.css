@@ -6,6 +6,12 @@
     padding: 0;
 }
 
+.WebContainer{
+    width:100%;
+    min-width:1000px;
+    height:auto;
+}
+
 html,
 body {
     overflow-x: hidden;
