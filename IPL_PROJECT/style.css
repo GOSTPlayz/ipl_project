@@ -42,6 +42,7 @@ section {
     display: block;
     padding: 40px 0;
     width: 100%;
+    height: 100%;
 }
 
 section:nth-child(even) {
@@ -178,17 +179,6 @@ section:nth-child(odd) {
     width: 100vw;
 }
 
-#parallex-set-1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./img/cycle2.jpg');
-}
-
-#parallex-set-2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./img/cycle1.jpg');
-}
-
-#parallex-set-3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./img/cycle3.jpg');
-}
 
 .item-box {
     position: relative;
@@ -282,13 +272,13 @@ footer {
 
 /*Index*/
 #index_headder{
+    height: auto;
+    width: 100%;
     display: block;
     position: relative;
     background-image: url('./img/main1.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: auto;
-    width: 100%;
     background-size: cover;
 }
 
