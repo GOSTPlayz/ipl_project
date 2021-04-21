@@ -5,9 +5,7 @@
     margin: auto;
     padding: 0;
 }
-    #vid { 
-        height: auto;
-        width: 100%;
+    #vid {
         background: url(./img/csklogo.mp4) no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
