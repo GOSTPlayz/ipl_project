@@ -2,17 +2,18 @@
 *::after,
 *::before {
     box-sizing: border-box;
-    margin: 0;
+    margin: auto;
     padding: 0;
 }
-
-#vid { 
-    background: url(./img/csklogo.mp4) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
+    #vid { 
+        height: auto;
+        width: 100%;
+        background: url(./img/csklogo.mp4) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
 html,
 body {
     overflow-x: hidden;
@@ -271,16 +272,31 @@ footer {
 }
 
 /*Index*/
-#index_headder{
-    height: auto;
-    width: 100%;
+#index_headder {
+    height: 100vh;
+    width: 100vw;
     display: block;
     position: relative;
-    background-image: url('./img/main1.jpg');
+    background-image: url('./img/mobile.PNG');
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: initial;
     background-size: cover;
-}
+  }
+  
+  /* For width 400px and larger: */
+  @media only screen and (min-device-width: 400px) {
+    #index_headder {
+        height: 100vh;
+        width: 100vw;
+        display: block;
+        position: relative;
+        background-image: url('./img/main1.jpg');
+        background-repeat: no-repeat;
+        background-attachment: initial;
+        background-size: cover;
+    }
+  }
+
 
 #headTag{
     display: block;
